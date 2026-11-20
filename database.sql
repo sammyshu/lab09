@@ -8,3 +8,10 @@ CREATE TABLE cars(
     price FLOAT NOT NULL,
     yom INT NOT NULL
 );
+
+
+INSERT INTO cars (make,model,price,yom) VALUES  ("Holden", "Astra", 14000, 2009), 
+                                                ("BMW", "X3", 35000, 2010),
+                                                ("Ford", "Falcon", 39000, 2013),
+                                                ("Toyota", "Corolla", 20000, 2012),
+                                                ("Holden", "Commodore", 28000, 2009);
